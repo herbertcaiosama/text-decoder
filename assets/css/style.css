@@ -84,6 +84,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-height: 100vh;
 }
 
 li {
@@ -312,10 +313,9 @@ body {
 }
 
 .copy-button {
-  position: absolute;
-  bottom: 95px;
+  margin: 0 auto;
   width: 200px;
-  height: 50px;
+  height: 55px;
   background-color: var(--white);
   border: 1px solid var(--dark-blue-300);
   color: var(--dark-blue-300);
@@ -634,9 +634,12 @@ body {
     }
   
     .copy-button {
+      position: absolute;
+      top: 600px;
+      right: 60px;
       width: 270px;
       height: 50px;
-      top: 550px;
+      
     }
 }
 
@@ -653,6 +656,10 @@ body {
   
   .text-result-paragraph {
     padding: 0 25px;
+  }
+
+  .copy-button {
+    right: 81px;
   }
 }
 
@@ -685,6 +692,11 @@ body {
     width: 350px;
     right: 50px;
   }
+
+  .copy-button {
+    top: 600px;
+    right: 90px;
+  }
 }
 
 /* ----------------------------------------- */
@@ -711,6 +723,11 @@ body {
     height: 710px;
     top: 40px;
     right: 55px;
+  }
+
+  .copy-button {
+    top: 660px;
+    right: 95px;
   }
 
   .footer-bottom {
